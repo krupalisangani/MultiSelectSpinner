@@ -5,14 +5,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.androidbuts.multispinnerfilter.KeyPairBoolData;
-import com.androidbuts.multispinnerfilter.MultiSpinnerListener;
-import com.androidbuts.multispinnerfilter.MultiSpinnerNone;
-import com.androidbuts.multispinnerfilter.MultiSpinnerSearch;
-import com.androidbuts.multispinnerfilter.MultiSpinnerSelect;
-import com.androidbuts.multispinnerfilter.SingleSpinner;
-import com.androidbuts.multispinnerfilter.SingleSpinnerSearch;
-import com.androidbuts.multispinnerfilter.SpinnerListener;
+
+import com.multiselectedspinner.KeyPairBoolData;
+import com.multiselectedspinner.MultiSpinnerListener;
+import com.multiselectedspinner.MultiSpinnerNone;
+import com.multiselectedspinner.MultiSpinnerSearch;
+import com.multiselectedspinner.MultiSpinnerSelect;
+import com.multiselectedspinner.SingleSpinner;
+import com.multiselectedspinner.SingleSpinnerSearch;
+import com.multiselectedspinner.SpinnerListener;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -5,7 +5,7 @@
     android:layout_marginBottom="10dp"
     android:orientation="vertical">
 
-    <com.androidbuts.multispinnerfilter.MultiSpinner
+    <com.multiselectedspinner.MultiSpinner
         android:id="@+id/simpleMultiSpinner"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -13,42 +13,42 @@
         android:visibility="gone"
         app:hintText="Multi Selection" />
 
-    <com.androidbuts.multispinnerfilter.MultiSpinnerSearch
+    <com.multiselectedspinner.MultiSpinnerSearch
         android:id="@+id/searchMultiSpinnerUnlimited"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         app:hintText="Multi Selection With Filter Without Limit" />
 
-    <com.androidbuts.multispinnerfilter.MultiSpinnerSearch
+    <com.multiselectedspinner.MultiSpinnerSearch
         android:id="@+id/searchMultiSpinnerLimit"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         app:hintText="Multi Selection With Filter And Limit" />
 
-    <com.androidbuts.multispinnerfilter.SingleSpinnerSearch
+    <com.multiselectedspinner.SingleSpinnerSearch
         android:id="@+id/searchSingleSpinner"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         app:hintText="Single Selection With Filter" />
 
-    <com.androidbuts.multispinnerfilter.SingleSpinner
+    <com.multiselectedspinner.SingleSpinner
         android:id="@+id/singleSpinner"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         app:hintText="Single Selection" />
 
-    <com.androidbuts.multispinnerfilter.MultiSpinnerNone
+    <com.multiselectedspinner.MultiSpinnerNone
         android:id="@+id/noneSpinner"
         app:hintText="None"
         android:layout_margin="10dp"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content" />
 
-    <com.androidbuts.multispinnerfilter.MultiSpinnerSelect
+    <com.multiselectedspinner.MultiSpinnerSelect
         android:id="@+id/selectSpinner"
         app:hintText="Select"
         android:layout_margin="10dp"
