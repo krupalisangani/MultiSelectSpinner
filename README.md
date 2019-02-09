@@ -13,7 +13,7 @@
 
 ### Add dependency in build.gradle:
 
-    implementation ' implementation 'com.github.krupalisangani:MultiSelectSpinner:1.0''
+    implementation 'com.github.krupalisangani:MultiSelectSpinner:1.0'
 
 ### Changes
 
